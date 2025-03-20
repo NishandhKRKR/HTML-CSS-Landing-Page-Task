@@ -1,4 +1,4 @@
-# Public Project README
+# HTML & CSS Project README
 
 ## Description
 This is an open-source HTML & CSS project designed for public use. It provides a simple, responsive layout that can be customized easily. Ideal for beginners looking to learn front-end development.
