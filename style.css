@@ -1,0 +1,811 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header and navbar star  */
+
+header {
+  background-color: #fefcfb;
+  width: 98%;
+  margin: auto;
+  height: 100%;
+}
+
+section.hero {
+  width: 98%;
+  margin: auto;
+  height: 100%;
+}
+
+.navbar {
+  padding: 15px;
+  width: 92%;
+  margin: auto;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Volkhov", sans-serif;
+  background-color: transparent;
+}
+
+.ul-list ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  font-family: "Poppins", sans-serif;
+}
+
+ul li.list {
+  list-style: none;
+}
+
+a.atag {
+  text-decoration: none;
+  color: black;
+}
+
+button.btn1 {
+  width: 130px;
+  height: 50px;
+  margin-left: 20px;
+  border: none;
+  color: #fa7436;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: transparent;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+
+button.btn1:hover {
+  background-color: #fa7436;
+  color: white;
+  transition: 0.5s;
+}
+
+/* Header and navbar star finish */
+
+/* hero-section start  */
+
+h1.get-start {
+  margin-top: 150px;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 65px;
+  font-family: "Volkhov", sans-serif;
+}
+
+h1.get-start span {
+  color: #fa7436;
+}
+
+.hero-left p {
+  margin-top: 50px;
+  font-size: 20px;
+  line-height: 40px;
+  font-family: "Poppins", sans-serif;
+}
+
+button.discover {
+  margin-top: 40px;
+  width: 178px;
+  height: 60px;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #fa7436;
+  font-size: 18px;
+  font-weight: 600;
+  border: 1px solid #fa7436;
+  font-family: "Poppins", sans-serif;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+  height: 100%;
+  /* position: relative; */
+}
+
+.hero-left {
+  width: 45%;
+}
+.hero-right {
+  width: 55%;
+}
+
+.main-one img {
+  width: 750px;
+  height: 191px;
+  z-index: -999;
+  margin-top: 24px;
+}
+.main-two {
+  position: relative;
+  font-family: "Poppins", sans-serif;
+
+}
+
+.main-two .men1 {
+  width: 500px;
+  height: 530px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -60px;
+}
+.main-two h4{
+  font-size: 16px;
+  font-weight: 500;
+}
+.popup {
+  width: 150px;
+  height: 66px;
+  background-color: #ffffff;
+  position: absolute;
+  left: 0%;
+  top: 20%;
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 14px;
+  padding: 13px;
+}
+
+.popup1 {
+  width: 173px;
+  height: 74px;
+  background-color: #ffffff;
+  position: absolute;
+  right: 26px;
+  top: 40%;
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 10px;
+}
+
+.item{
+  margin-left: 8px;
+}
+
+.popup1,.one1,.one2{
+   font-size: 10px;
+}
+
+
+
+.popup2 {
+  width: 173px;
+  height: 70px;
+  background-color: #ffffff;
+  position: absolute;
+  top: 316px;
+  left: 14%;
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  padding: 13px;
+}
+
+/* Explore card */
+.explore-now {
+  width: 100%;
+  height: 240px;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.explore {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #ffffff;
+  width: 841px;
+  height: 124px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 10px;
+}
+
+.ldg h3 {
+  font-size: 16px;
+  color: #222222;
+  font-family: "Poppins", sans-serif;
+}
+
+.ldg p {
+  font-size: 12px;
+  color: #666666;
+  font-family: "Poppins", sans-serif;
+}
+
+.login-btn2 .btn2 {
+  width: 120px;
+  height: 45px;
+  margin-left: 20px;
+  border: none;
+  color: #fefcfb;
+  border-radius: 5px;
+  font-size: 13px;
+  cursor: pointer;
+  background-color: #fa7436;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+
+/* hero-section end  */
+
+/* to do section start */
+
+section.to-do {
+  background-color: #f7f8fc;
+  width: 98%;
+  margin: auto;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.to-do-cards {
+  width: 80%;
+  margin: auto;
+  height: 560px;
+}
+.thankyou {
+  font-size: 48px;
+  font-family: "Volkhov", sans-serif;
+}
+.thankyou span {
+  color: #fa7436;
+}
+
+.para1 {
+  font-size: 18px;
+  line-height: 30px;
+  font-family: "Poppins", sans-serif;
+}
+
+.head-para,
+.thankyou,
+.para1 {
+  text-align: center;
+  margin-top: 30px;
+}
+div.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-top: 30px;
+  font-family: "Poppins", sans-serif;
+}
+
+.sign-up,
+.money,
+.travel {
+  width: 370px;
+  height: 278px;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.card h3 {
+  margin-top: 80px;
+}
+.card p {
+  margin-top: 15px;
+}
+
+/* to do section end  */
+
+/* Dicount section  */
+section.discount{
+  width: 98%;
+  margin: auto;
+  height: 100%;
+  display: flex;
+}
+
+.discount-cards{
+  width: 80%;
+  margin: auto;
+  height: 762px;
+}
+
+.card-one{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-top: 30px;
+  font-family: "Poppins", sans-serif;
+}
+
+.card-one .deals{
+  width: 270px;
+  height: 405px;
+  background-color: #FEFCFB;
+  border-radius: 8px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+/* caeds content  */
+
+.name-place{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+}
+.name-place h4{
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.name-place p{
+  color: #666666;
+}
+
+.location-map{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.location-map p{
+  color: #666666;
+}
+
+.map-place span.offer {
+  color: #FA7436;
+  text-decoration: none;
+  padding: 2px;
+  background-color: #FFE7DB;
+  border-radius: 7px;
+}
+
+.map-place span{
+  color: #999999;
+  padding-right: 10px;
+  text-decoration: line-through;
+}
+
+
+/* button container  */
+.button-container {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  cursor: pointer;
+  border: 2px solid #ddd;
+  background-color: white;
+  color: #bbb;
+  transition: 0.3s;
+}
+
+.button.active {
+  background-color: #ff6f2c;
+  color: white;
+  border: none;
+}
+
+.button:hover {
+  border-color: #aaa;
+}
+
+.button.active:hover {
+  background-color: #e65a1e;
+}
+
+/* discount end  */
+
+/* vacation plan start  */
+
+section.vacation-plan{
+  width: 98%;
+  margin: auto;
+  height: 100%;
+  display: flex;
+}
+
+.vacation{
+  width: 80%;
+  margin: auto;
+  height: 810px;
+}
+
+
+.plan-one{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  margin-top: 30px;
+  font-family: "Poppins", sans-serif;
+}
+
+.plan-one .deals{
+  width: 370px;
+  height: 447px;
+  background-color: #FEFCFB;
+  border-radius: 8px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.doller{
+  color: #FA7436;
+}
+
+
+.button-containers {
+  display: flex;
+  gap: 15px;
+  justify-content: end;
+  margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+/* media query */
+
+@media screen and (max-width:1504px) {
+  .plan-one .deals {
+    width: 340px;
+    height: 447px;
+    
+}
+
+.deals .plans{
+  width: 340px;
+}
+  
+  .vacation{
+    height: 1000px;
+    margin-top: 77px;
+
+  }
+}
+
+@media screen and (max-width: 1445px) {
+  h1.get-start {
+    font-size: 58px;
+  }
+
+  .main-one img {
+    width: 695px;
+    height: 191px;
+  }
+
+  .main-two .men1 {
+    width: 480px;
+    height: 510px;
+  }
+
+  .hero-left p {
+    font-size: 17px;
+    line-height: 40px;
+  }
+
+  .discount-cards{
+    height: 1065px;
+  }
+  .plan-one .deals {
+    width: 320px;
+    height: 417px;
+    
+}
+
+.deals .plans{
+  width: 320px;
+}
+}
+
+@media screen and (max-width: 1310px) {
+  h1.get-start {
+    font-size: 50px;
+  }
+
+  .main-one img {
+    width: 645px;
+    height: 170px;
+  }
+
+  .main-two .men1 {
+    width: 450px;
+    height: 450px;
+  }
+
+  .hero-left p {
+    font-size: 15px;
+    line-height: 30px;
+  }
+  .discount-cards{
+    height: 1192px;
+  }
+
+  
+}
+
+@media screen and (max-width: 1129px) {
+  h1.get-start {
+    font-size: 45px;
+  }
+  .card-one{
+    justify-content: space-evenly;
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 1028px) {
+  h1.get-start {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .hero-left p {
+    margin-top: 20px;
+    font-size: 12px;
+    line-height: 27px;
+  }
+  .main-one img {
+    width: 550px;
+    height: 110px;
+  }
+
+  .main-two .men1 {
+    width: 360px;
+    height: 360px;
+  }
+  .ul-list ul {
+    display: flex;
+    gap: 20px;
+    font-family: "Poppins", sans-serif;
+  }
+
+  /* cards  */
+
+  .card h3 {
+    margin-top: 45px;
+  }
+  .card p {
+    margin-top: 12px;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 904px) {
+  h1.get-start {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .hero-left p {
+    font-size: 10px;
+    line-height: 27px;
+  }
+  .main-one img {
+    width: 400px;
+    height: 90px;
+  }
+
+  .main-two .men1 {
+    width: 310px;
+    height: 310px;
+  }
+  .ul-list ul {
+    display: flex;
+    gap: 18px;
+    font-family: "Poppins", sans-serif;
+  }
+  button.btn1 {
+    width: 95px;
+    height: 35px;
+    margin-left: 8px;
+    font-size: 12px;
+  }
+
+  h1.logo {
+    font-size: 18px;
+  }
+  h1.logo img {
+    width: 16px;
+  }
+
+  a.atag {
+    font-size: 12px;
+  }
+
+  button.discover {
+    width: 130px;
+    height: 45px;
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+
+  .hero-section {
+    display: flex;
+    justify-content: space-around;
+    /* flex-direction: column; */
+
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    height: 100%;
+  }
+  .main-one img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .main-two .men1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .discount-cards {
+   
+    height: 1304px;
+}
+}
+
+@media screen and (max-width: 726px) {
+
+  .discount-cards{
+    height: 2125px;
+  }
+  
+}
+
+@media screen and (max-width: 686px) {
+  .hero-left {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  h1.get-start {
+    font-size: 35px;
+    line-height: 48px;
+    margin-top: 30px;
+  }
+
+  .hero-left p {
+    font-size: 12px;
+    line-height: 25px;
+  }
+
+  .hero-right {
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .explore {
+    /* position: absolute;
+    top: 892px; */
+    width: 447px;
+    height: 71px;
+  }
+
+  .ldg h3,
+  .ldg p {
+    font-size: 10px;
+  }
+  .login-btn2 .btn2 {
+    width: 100px;
+    height: 35px;
+    font-size: 10px;
+  }
+
+  .thankyou {
+    font-size: 40px;
+  }
+
+  .para1 {
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .head-para,
+  .thankyou,
+  .para1 {
+    text-align: center;
+    margin-top: 30px;
+  }
+  div.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+  }
+
+  .sign-up,
+  .money,
+  .travel {
+    width: 370px;
+    height: 278px;
+    background-color: #ffffff;
+    padding: 30px;
+  }
+
+  .card h3 {
+    margin-top: 70px;
+  }
+  .card p {
+    margin-top: 14px;
+    font-size: 14px;
+  }
+
+  .to-do-cards {
+    height: 1205px;
+  }
+}
+
+@media screen and (max-width: 462px) {
+  .explore {
+    top: 900px;
+    width: 360px;
+    height: 60px;
+  }
+
+  .ldg h3,
+  .ldg p {
+    font-size: 8px;
+  }
+  .login-btn2 .btn2 {
+    width: 75px;
+    height: 30px;
+    font-size: 9px;
+  }
+
+  .discount-cards {
+    height: 2134px;
+}
+
+}
