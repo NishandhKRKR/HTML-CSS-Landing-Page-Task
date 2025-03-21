@@ -4,7 +4,7 @@
 This is an open-source HTML & CSS project designed for public use. It provides a simple, responsive layout that can be customized easily. Ideal for beginners looking to learn front-end development.
 
 ## Live Demo
-Check out the live version of this project: [loading...](#)
+Check out the live version of this project: [https://htmlcsslandingpage1.netlify.app/](#)
 
 ## Features
 - Fully responsive design
