@@ -130,7 +130,6 @@ button.discover {
 .main-two {
   position: relative;
   font-family: "Poppins", sans-serif;
-
 }
 
 .main-two .men1 {
@@ -141,7 +140,7 @@ button.discover {
   margin-right: auto;
   margin-top: -60px;
 }
-.main-two h4{
+.main-two h4 {
   font-size: 16px;
   font-weight: 500;
 }
@@ -170,22 +169,22 @@ button.discover {
   top: 40%;
   border-radius: 10px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-  
+
   display: flex;
   align-items: center;
   gap: 14px;
   padding: 10px;
 }
 
-.item{
+.item {
   margin-left: 8px;
 }
 
-.popup1,.one1,.one2{
-   font-size: 10px;
+.popup1,
+.one1,
+.one2 {
+  font-size: 10px;
 }
-
-
 
 .popup2 {
   width: 173px;
@@ -318,20 +317,20 @@ div.card {
 /* to do section end  */
 
 /* Dicount section  */
-section.discount{
+section.discount {
   width: 98%;
   margin: auto;
   height: 100%;
   display: flex;
 }
 
-.discount-cards{
+.discount-cards {
   width: 80%;
   margin: auto;
   height: 762px;
 }
 
-.card-one{
+.card-one {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -341,56 +340,55 @@ section.discount{
   font-family: "Poppins", sans-serif;
 }
 
-.card-one .deals{
+.card-one .deals {
   width: 270px;
   height: 405px;
-  background-color: #FEFCFB;
+  background-color: #fefcfb;
   border-radius: 8px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 /* caeds content  */
 
-.name-place{
+.name-place {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 15px;
 }
-.name-place h4{
+.name-place h4 {
   font-size: 24px;
   font-weight: 500;
 }
 
-.name-place p{
+.name-place p {
   color: #666666;
 }
 
-.location-map{
+.location-map {
   display: flex;
   justify-content: space-between;
   padding-left: 14px;
   padding-right: 14px;
 }
 
-.location-map p{
+.location-map p {
   color: #666666;
 }
 
 .map-place span.offer {
-  color: #FA7436;
+  color: #fa7436;
   text-decoration: none;
   padding: 2px;
-  background-color: #FFE7DB;
+  background-color: #ffe7db;
   border-radius: 7px;
 }
 
-.map-place span{
+.map-place span {
   color: #999999;
   padding-right: 10px;
   text-decoration: line-through;
 }
-
 
 /* button container  */
 .button-container {
@@ -433,21 +431,20 @@ section.discount{
 
 /* vacation plan start  */
 
-section.vacation-plan{
+section.vacation-plan {
   width: 98%;
   margin: auto;
   height: 100%;
   display: flex;
 }
 
-.vacation{
+.vacation {
   width: 80%;
   margin: auto;
-  height: 810px;
+  height: 880px;
 }
 
-
-.plan-one{
+.plan-one {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -457,18 +454,17 @@ section.vacation-plan{
   font-family: "Poppins", sans-serif;
 }
 
-.plan-one .deals{
+.plan-one .deals {
   width: 370px;
   height: 447px;
-  background-color: #FEFCFB;
+  background-color: #fefcfb;
   border-radius: 8px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
-.doller{
-  color: #FA7436;
+.doller {
+  color: #fa7436;
 }
-
 
 .button-containers {
   display: flex;
@@ -477,32 +473,154 @@ section.vacation-plan{
   margin-top: 50px;
 }
 
+/* About us  */
 
+section.about-us {
+  width: 98%;
+  margin: auto;
+  height: 100%;
+  display: flex;
+  background-color: #f7f8fc;
+}
 
+.about {
+  width: 80%;
+  margin: auto;
+  height: 594px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
 
+.left-about h1 {
+  font-size: 48px;
+  font-family: "Volkhov", sans-serif;
+  margin-top: 80px;
+}
+.left-about h1 span {
+  color: #fa7436;
+}
 
+.left-about p {
+  font-size: 16px;
+  color: #666666;
+  line-height: 31px;
+  margin-top: 13px;
+}
 
+.button-about {
+  display: flex;
+  gap: 15px;
+  justify-content: flex-start;
+  margin-top: 50px;
+}
 
+/* about cards  */
 
+.about-card-one {
+  width: 502px;
+  height: 232px;
+  background-color: #eeeff3;
+  border-radius: 10px;
+  margin-top: 90px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: end;
+  position: absolute;
+  font-family: "Poppins", sans-serif;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 
+  top: 101px;
+  left: 140px;
+}
+
+.about-card-two {
+  width: 502px;
+  height: 232px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+  padding: 30px;
+  position: absolute;
+}
+.h-four-para h4 {
+  color: #222222;
+  font-size: 18px;
+}
+
+.about-card-two p {
+  color: #444444;
+  font-size: 16px;
+}
+
+.h-four-para.pak {
+  color: #666666;
+  font-size: 14px;
+}
+
+.about-card-one h4 {
+  padding-left: 19px;
+  padding-bottom: 10px;
+  line-height: 31px;
+}
+.about-card-one p {
+  padding-left: 19px;
+  padding-bottom: 10px;
+  line-height: 31px;
+}
+.left-about {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.right-about {
+  display: flex;
+  flex-direction: column;
+  /* position: relative; */
+  width: 50%;
+}
+
+.right-new {
+  width: 50%;
+}
+.cards-new {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+  height: 587px;
+}
+.mike-logo {
+  position: absolute;
+  bottom: 191px;
+  right: 92%;
+}
 
 /* media query */
 
-@media screen and (max-width:1504px) {
+@media screen and (max-width: 1504px) {
   .plan-one .deals {
     width: 340px;
     height: 447px;
-    
-}
+  }
 
-.deals .plans{
-  width: 340px;
-}
-  
-  .vacation{
-    height: 1000px;
+  .deals .plans {
+    width: 340px;
+  }
+
+  .vacation {
+    height: 835px;
     margin-top: 77px;
-
   }
 }
 
@@ -526,18 +644,20 @@ section.vacation-plan{
     line-height: 40px;
   }
 
-  .discount-cards{
+  .discount-cards {
     height: 1065px;
   }
   .plan-one .deals {
     width: 320px;
     height: 417px;
-    
-}
+  }
+  .vacation {
+    height: 919px;
+  }
 
-.deals .plans{
-  width: 320px;
-}
+  .deals .plans {
+    width: 320px;
+  }
 }
 
 @media screen and (max-width: 1310px) {
@@ -559,20 +679,91 @@ section.vacation-plan{
     font-size: 15px;
     line-height: 30px;
   }
-  .discount-cards{
+  .discount-cards {
     height: 1192px;
   }
 
-  
+  .vacation {
+    height: 1324px;
+  }
+
+  /* about card  */
+
+  .about {
+    justify-content: center;
+    gap: 82px;
+    height: 1048px;
+    position: relative;
+  }
+
+  .left-about {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    height: 380px;
+  }
+
+  .right-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    bottom: 70%;
+  }
+
+  .about-card-one {
+    width: 400px;
+    height: 200px;
+
+    margin-top: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: end;
+    position: absolute;
+    top: 112px;
+    left: 67px;
+  }
+
+  .about-card-two {
+    width: 400px;
+    height: 200px;
+    margin-top: 90px;
+    position: absolute;
+  }
+
+  .h-four-para h4 {
+    color: #222222;
+    font-size: 15px;
+  }
+
+  .about-card-two p {
+    color: #444444;
+    font-size: 12px;
+  }
+
+  .h-four-para.pak {
+    color: #666666;
+    font-size: 14px;
+  }
+
+  .mike-logo {
+    bottom: 154px;
+    right: 92%;
+  }
 }
 
 @media screen and (max-width: 1129px) {
   h1.get-start {
     font-size: 45px;
   }
-  .card-one{
+  .card-one {
     justify-content: space-evenly;
     gap: 30px;
+  }
+
+  .about {
+    display: flex;
   }
 }
 
@@ -609,6 +800,14 @@ section.vacation-plan{
   .card p {
     margin-top: 12px;
     font-size: 12px;
+  }
+
+  .left-about h1 {
+    font-size: 38px;
+  }
+
+  .left-about p {
+    font-size: 13px;
   }
 }
 
@@ -683,17 +882,56 @@ section.vacation-plan{
   }
 
   .discount-cards {
-   
     height: 1304px;
+  }
+
+  .vacation {
+    height: 1275px;
+    margin-top: 77px;
+  }
+
+  .plan-one .deals {
+    width: 310px;
+    height: 410px;
+  }
+
+  .deals .plans {
+    width: 310px;
+  }
 }
+
+@media screen and (max-width: 836px) {
+  .vacation {
+    height: 1677px;
+  }
+  .left-about {
+    width: 380px;
+  }
+
+  .right-new {
+    width: 435px;
+    height: 648px;
+  }
+
+  .left-about h1 {
+    font-size: 35px;
+  }
+
+  .left-about p {
+    font-size: 13px;
+  }
 }
 
 @media screen and (max-width: 726px) {
-
-  .discount-cards{
+  .discount-cards {
     height: 2125px;
   }
-  
+
+  /* about section  */
+
+  .right-about {
+    left: 90px;
+  }
 }
 
 @media screen and (max-width: 686px) {
@@ -704,7 +942,6 @@ section.vacation-plan{
     justify-content: center;
     align-items: center;
   }
-
 
   h1.get-start {
     font-size: 35px;
@@ -758,7 +995,7 @@ section.vacation-plan{
   }
   div.card {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     gap: 10px;
     margin-top: 30px;
@@ -774,6 +1011,11 @@ section.vacation-plan{
     padding: 30px;
   }
 
+  .vacation {
+    height: 1700px;
+    margin-top: 77px;
+  }
+
   .card h3 {
     margin-top: 70px;
   }
@@ -784,6 +1026,50 @@ section.vacation-plan{
 
   .to-do-cards {
     height: 1205px;
+  }
+
+  /* about card  */
+
+  .about-card-one {
+    width: 297px;
+    height: 156px;
+  }
+
+  .about-card-two {
+    width: 297px;
+    height: 156px;
+    top: 40px;
+    right: 0px;
+  }
+
+  .about-card-one h4 {
+    padding-left: 12px;
+    padding-bottom: 0px;
+    line-height: 22px;
+  }
+  .about-card-one p {
+    padding-left: 13px;
+    padding-bottom: 5px;
+    line-height: 27px;
+  }
+
+  .h-four-para h4 {
+    color: #222222;
+    font-size: 18px;
+  }
+
+  .about-card-two p {
+    color: #444444;
+    font-size: 10px;
+  }
+
+  .h-four-para.pak {
+    color: #666666;
+    font-size: 14px;
+  }
+  .mike-logo {
+    right: 88%;
+    bottom: 117px;
   }
 }
 
@@ -806,6 +1092,22 @@ section.vacation-plan{
 
   .discount-cards {
     height: 2134px;
-}
+  }
 
+  .vacation {
+    height: 1779px;
+    margin-top: 77px;
+  }
+  .about {
+    gap: 0px;
+  }
+  .cards-new {
+    width: 367px;
+  }
+
+  .about-card-one {
+    width: 297px;
+    height: 156px;
+    left: 60px;
+  }
 }
