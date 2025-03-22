@@ -680,6 +680,168 @@ section.latest-blog {
   background-color: #FA7436;
 }
 
+
+/* subscribe section  */
+.box-sub {
+  background-color: #FA7436;
+  padding: 50px 20px;
+  text-align: center;
+  border-radius: 10px;
+  width: 1170px;
+  height: 416px;
+  margin: 50px auto;
+  color: white;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  z-index: 1;
+}
+.circle {
+  position: absolute;
+  left: 0px;
+  bottom: 0;
+  z-index: -999;
+}
+
+.box-sub h2{
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-family: "Volkhov", sans-serif;
+}
+.input-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  border-radius: 10px;
+  padding: 5px;
+  width: 700px;
+  height: 68px;
+  margin: 0 auto;
+}
+
+.input-box input {
+  border: none;
+  outline: none;
+  padding: 10px 15px;
+  font-size: 14px;
+  flex: 1;
+  border-radius: 10px;
+}
+
+.input-box button {
+  background-color: #e75b1b;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  width: 132px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.input-box button:hover {
+  background-color: #d14812;
+}
+
+/* Email Icon */
+.input-box i {
+  margin-left: 10px;
+  color: gray;
+}
+
+
+/* Footer section  */
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 30px;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 220px;
+  margin-bottom: 20px;
+}
+
+.footer-column h3 {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Volkhov",sans-serif;
+  margin-bottom: 15px;
+}
+
+.footer-column ul {
+  list-style: none;
+}
+
+.footer-column ul li {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #666;
+  cursor: pointer;
+}
+
+.footer-column ul li:hover {
+  color: #000;
+}
+
+/* Social Icons */
+.social-icons {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.social-icons img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #fff;
+  padding: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.social-icons img:nth-child(2) {
+  background-color: #f37021; /* Orange for Instagram */
+}
+
+/* Footer Bottom */
+.footer-bottom {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 14px;
+  color: #666;
+  border-top: 1px solid #ddd;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-bottom a {
+  color: #666;
+  text-decoration: none;
+}
+
+.footer-bottom a:hover {
+  color: #000;
+}
+
+
+
 /* media query */
 
 @media screen and (max-width: 1504px) {
@@ -829,6 +991,47 @@ section.latest-blog {
     bottom: 154px;
     right: 92%;
   }
+
+  /* subscribe section  */
+.box-sub {
+ 
+  width: 870px;
+  height: 313px;
+ 
+}
+
+.circle img{
+  width: 284px;
+ 
+}
+
+.box-sub h2{
+  font-size: 34px;
+ 
+}
+.input-box {
+ 
+  width: 538px;
+  height: 50px;
+  
+}
+
+
+.input-box button {
+ 
+  width: 100px;
+  height: 35px;
+  font-size: 13px;
+  
+}
+
+
+
+/* Email Icon */
+.input-box i {
+  margin-left: 10px;
+  color: gray;
+}
 }
 
 @media screen and (max-width: 1129px) {
@@ -980,6 +1183,47 @@ section.latest-blog {
   .blog{
     height: 1100px;
   }
+
+    /* subscribe section  */
+.box-sub {
+ 
+  width: 575px;
+  height: 220px;
+ 
+}
+
+.circle img{
+  width: 200px;
+ 
+}
+
+.box-sub h2{
+  font-size: 24px;
+ 
+}
+.input-box {
+ 
+  width: 338px;
+  height: 37px;
+  
+}
+
+
+.input-box button {
+ 
+  width: 75px;
+  height: 28px;
+  font-size: 10px;
+  
+}
+
+
+
+/* Email Icon */
+.input-box i {
+  margin-left: 10px;
+  color: gray;
+}
 }
 
 @media screen and (max-width: 836px) {
@@ -1002,6 +1246,8 @@ section.latest-blog {
   .left-about p {
     font-size: 13px;
   }
+
+  
 }
 
 @media screen and (max-width: 726px) {
@@ -1158,6 +1404,56 @@ section.latest-blog {
     bottom: 117px;
   }
 
+    /* subscribe section  */
+.box-sub {
+ 
+  width: 370px;
+  height: 200px;
+ 
+}
+
+.circle img{
+  width: 154px;
+ 
+}
+
+.box-sub h2{
+  font-size: 20px;
+ 
+}
+.input-box {
+ 
+  width: 275px;
+  height: 28px;
+  
+}
+
+
+.input-box button {
+ 
+  width: 67px;
+  height: 23px;
+  font-size: 10px;
+  padding: 4px 10px;
+  border-radius: 8px;
+  
+}
+.input-box input {
+ 
+  padding: 4px 6px;
+  font-size: 14px;
+  flex: 1;
+  border-radius: 10px;
+}
+
+
+
+/* Email Icon */
+.input-box i {
+  margin-left: 10px;
+  color: gray;
+}
+
   /* blog seaction  */
 
   /* .blog {
@@ -1202,4 +1498,93 @@ section.latest-blog {
     height: 156px;
     left: 60px;
   }
+
+  /* Footer section  */
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 30px;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 220px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer-column h3 {
+  font-size: 28px;
+  font-weight: bold;
+  font-family: "Volkhov",sans-serif;
+  margin-bottom: 15px;
+}
+
+.footer-column ul {
+  list-style: none;
+}
+
+.footer-column ul li {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #666;
+  font-family: "Poppins",sans-serif;
+  cursor: pointer;
+}
+
+.footer-column ul li:hover {
+  color: #000;
+}
+
+/* Social Icons */
+.social-icons {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.social-icons img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #fff;
+  padding: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.social-icons img:nth-child(2) {
+  background-color: #f37021; /* Orange for Instagram */
+}
+
+/* Footer Bottom */
+.footer-bottom {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 14px;
+  color: #666;
+  border-top: 1px solid #ddd;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-bottom a {
+  color: #666;
+  text-decoration: none;
+}
+
+.footer-bottom a:hover {
+  color: #000;
+}
+
 }
